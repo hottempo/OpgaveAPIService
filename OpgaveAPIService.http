@@ -1,0 +1,6 @@
+@OpgaveAPIService_HostAddress = http://localhost:5063
+
+GET {{OpgaveAPIService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
