@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: opgaveapiservice-pod
+  labels:
+    app: opgaveapiservice
+spec:
+  containers:
+  - name: opgaveapiservice-container
+    image: hottempo/opgaveapiservice:dev
+    ports:
+    - containerPort: 80
